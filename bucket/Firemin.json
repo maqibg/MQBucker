@@ -1,0 +1,34 @@
+{
+  "version": "8.5.2.8520",
+  "description": "Firemin is a small application that will eliminate all memory leaks in Firefox.",
+  "homepage": "https://rizonesoft.com/downloads/firemin/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://rizonesoft.com/legal/eula/"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://downloads.rizonesoft.com/Firemin/Firemin_8520_Setup.exe",
+      "hash": "68feaa9da6a48a1c25e6661fa518c262f0609d0add215c15befbceaacf1c488b"
+    }
+  },
+  "innosetup": true,
+  "bin": "Firemin.exe",
+  "shortcuts": [
+    [
+      "Firemin.exe",
+      "Firemin"
+    ]
+  ],
+  "checkver": {
+    "url": "https://rizonesoft.com/downloads/firemin/",
+    "regex": "Firemin_([\\d.]+)_Setup.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://downloads.rizonesoft.com/Firemin/Firemin_$version_Setup.exe"
+      }
+    }
+  }
+}
