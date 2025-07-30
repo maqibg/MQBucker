@@ -9,7 +9,7 @@
       "hash": "ec7a53e7d0c172395a036ed7153462da945594d386272c2aae819171237a0214"
     }
   },
-  "extract_dir": "bbmusic-windows",
+  "extract_dir": "Release",
   "bin": "bbmusic.exe",
   "shortcuts": [
     [
